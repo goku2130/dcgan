@@ -28,25 +28,25 @@ GEN_SPECS = {
                     'layer_1' : {
                         'layer_type' : 'Dense',
                         'kernel_size' : 8,
-                        'filters': 256 # 8x8x256
+                        'filters': 256  # 8x8x256
                     },
                     'layer_2': {
                         'layer_type': 'Conv2DTranspose',
                         'kernel_size': 5,
                         'filters': 128,
-                        'stride' : 1 # 8x8x128
+                        'stride' : 1  # 8x8x128
                     },
                     'layer_3': {
                         'layer_type': 'Conv2DTranspose',
                         'kernel_size': 5,
                         'filters': 64,
-                        'stride': 2 # 16x16x64
+                        'stride': 2  # 16x16x64
                     },
                     'layer_4': {
                         'layer_type': 'Conv2DTranspose',
                         'kernel_size': 5,
                         'filters': 3,
-                        'stride': 2 # 32x32x3
+                        'stride': 2  # 32x32x3
                     }
                 }
 
